@@ -10,11 +10,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        tools:srcCompat="@tools:sample/avatars"
-        />
+        android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/button"
@@ -24,6 +22,18 @@
         android:layout_marginTop="100dp"
         android:text="Wczytaj"
         android:backgroundTint="@color/black"
+        android:onClick="klik"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:textColor="#FF0000"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
         />
 
     <SeekBar
@@ -31,6 +41,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:textColor="#00FF00"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/seekBar2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar2"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textColor="#0000FF"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/seekBar3"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar3"
         android:layout_marginTop="50dp"/>
 
 </RelativeLayout>
