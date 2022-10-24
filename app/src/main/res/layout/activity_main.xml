@@ -44,7 +44,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
-        android:layout_marginTop="50dp"/>
+        android:max="255"
+        android:layout_marginTop="50dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,6 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/seekBar2"
+        android:max="255"
         android:layout_marginTop="50dp"/>
 
     <TextView
@@ -80,6 +82,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/seekBar3"
+        android:max="255"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/seekBar4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar4"
+        android:max="255"
         android:layout_marginTop="50dp"/>
 
 </RelativeLayout>
