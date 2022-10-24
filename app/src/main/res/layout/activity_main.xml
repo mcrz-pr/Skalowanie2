@@ -11,15 +11,18 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:maxHeight="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:text="Wczytaj"
         android:backgroundTint="@color/black"
         android:onClick="klik"
@@ -30,7 +33,7 @@
         android:layout_height="wrap_content"
         android:text="R"
         android:textColor="#FF0000"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
         android:textSize="20dp"
